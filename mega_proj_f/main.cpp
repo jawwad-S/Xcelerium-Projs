@@ -1,3 +1,4 @@
+#include <iostream>
 #include "framebuffer.h"
 #include "pipeline.h"
 #include "filter.h"
@@ -30,6 +31,8 @@ int main() {
         for(int x=0;x<fb.width;x++)
             fb.buffer[y][x] = output.at(x,y);
 
-    fb.savePPM("output_f2.ppm");
+    fb.savePPM("output_c.ppm");
+    std::cout << "output saved in output_c.ppm \n";
+
 }
 

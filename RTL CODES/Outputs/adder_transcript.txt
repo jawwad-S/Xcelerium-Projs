@@ -1,0 +1,29 @@
+a: 12153524    b: c0895e81 result: d29e93a6 expected result: d29e93a6 | Test: PASS
+OverFlow: 0 Expected OverFlow: 0 | OverFlow Test: PASS
+a: b1f05663    b: 06b97b0d result: b8a9d171 expected result: b8a9d171 | Test: PASS
+OverFlow: 0 Expected OverFlow: 0 | OverFlow Test: PASS
+a: b2c28465    b: 89375212 result: 3bf9d678 expected result: 3bf9d678 | Test: PASS
+OverFlow: 1 Expected OverFlow: 1 | OverFlow Test: PASS
+a: 06d7cd0d    b: 3b23f176 result: 41fbbe84 expected result: 41fbbe84 | Test: PASS
+OverFlow: 0 Expected OverFlow: 0 | OverFlow Test: PASS
+a: 76d457ed    b: 462df78c result: bd024f7a expected result: bd024f7a | Test: PASS
+OverFlow: 1 Expected OverFlow: 1 | OverFlow Test: PASS
+a: e33724c6    b: e2f784c5 result: c62ea98b expected result: c62ea98b | Test: PASS
+OverFlow: 0 Expected OverFlow: 0 | OverFlow Test: PASS
+a: 72aff7e5    b: bbd27277 result: 2e826a5c expected result: 2e826a5c | Test: PASS
+OverFlow: 0 Expected OverFlow: 0 | OverFlow Test: PASS
+a: 47ecdb8f    b: 793069f2 result: c11d4581 expected result: c11d4581 | Test: PASS
+OverFlow: 1 Expected OverFlow: 1 | OverFlow Test: PASS
+a: f4007ae8    b: e2ca4ec5 result: d6cac9ad expected result: d6cac9ad | Test: PASS
+OverFlow: 0 Expected OverFlow: 0 | OverFlow Test: PASS
+a: de8e28bd    b: 96ab582d result: 753980eb expected result: 753980eb | Test: PASS
+OverFlow: 1 Expected OverFlow: 1 | OverFlow Test: PASS
+a: 00000000    b: 00000000 result: 00000000 expected result: 00000000 | Test: PASS
+OverFlow: 0 Expected OverFlow: 0 | OverFlow Test: PASS
+a: ffffffff    b: ffffffff result: fffffffe expected result: fffffffe | Test: PASS
+OverFlow: 0 Expected OverFlow: 0 | OverFlow Test: PASS
+a: 7fffffff    b: 00000001 result: 80000000 expected result: 80000000 | Test: PASS
+OverFlow: 1 Expected OverFlow: 1 | OverFlow Test: PASS
+a: 80000000    b: 80000000 result: 00000000 expected result: 00000000 | Test: PASS
+OverFlow: 1 Expected OverFlow: 1 | OverFlow Test: PASS
+All tests passed!
