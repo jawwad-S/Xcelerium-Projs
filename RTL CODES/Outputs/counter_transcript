@@ -1,0 +1,49 @@
+# run -all
+# T=                    0 | rst_n = x | en = x | up_dn = x | count =   x
+# T:                   10 | expected_val:   x | got_val:   x | PASS
+# T=                   10 | rst_n = 0 | en = x | up_dn = x | count =   x
+# T:                   30 | expected_val:   0 | got_val:   x | PASS
+# T=                   30 | rst_n = 0 | en = 1 | up_dn = 1 | count =   0
+# T:                   50 | expected_val:   0 | got_val:   0 | PASS
+# T=                   50 | rst_n = 1 | en = 1 | up_dn = 1 | count =   0
+# T:                   70 | expected_val:   0 | got_val:   0 | PASS
+# T=                   70 | rst_n = 1 | en = 1 | up_dn = 1 | count = 255
+# T:                   90 | expected_val: 255 | got_val: 255 | PASS
+# T=                   90 | rst_n = 1 | en = 1 | up_dn = 0 | count = 254
+# T:                  110 | expected_val: 254 | got_val: 254 | PASS
+# T=                  110 | rst_n = 1 | en = 1 | up_dn = 0 | count = 255
+# T:                  130 | expected_val: 255 | got_val: 255 | PASS
+# T=                  130 | rst_n = 1 | en = 1 | up_dn = 0 | count =   0
+# T:                  150 | expected_val:   0 | got_val:   0 | PASS
+# T=                  150 | rst_n = 1 | en = 0 | up_dn = 0 | count =   1
+# T:                  170 | expected_val:   1 | got_val:   1 | PASS
+# T=                  170 | rst_n = 1 | en = 0 | up_dn = 1 | count =   1
+# T:                  190 | expected_val:   1 | got_val:   1 | PASS
+# T:                  210 | expected_val:   1 | got_val:   1 | PASS
+# T=                  210 | rst_n = 1 | en = 1 | up_dn = 1 | count =   1
+# T:                  230 | expected_val:   1 | got_val:   1 | PASS
+# T=                  230 | rst_n = 1 | en = 0 | up_dn = 1 | count =   0
+# T:                  250 | expected_val:   0 | got_val:   0 | PASS
+# T:                  270 | expected_val:   0 | got_val:   0 | PASS
+# T:                  290 | expected_val:   0 | got_val:   0 | PASS
+# T=                  290 | rst_n = 1 | en = 1 | up_dn = 0 | count =   0
+# T:                  310 | expected_val:   0 | got_val:   0 | PASS
+# T=                  310 | rst_n = 1 | en = 0 | up_dn = 1 | count =   1
+# T:                  330 | expected_val:   1 | got_val:   1 | PASS
+# T:                  350 | expected_val:   1 | got_val:   1 | PASS
+# T=                  350 | rst_n = 0 | en = 1 | up_dn = 1 | count =   1
+# T:                  370 | expected_val:   0 | got_val:   1 | FAIL
+# T=                  370 | rst_n = 1 | en = 1 | up_dn = 1 | count =   0
+# T:                  390 | expected_val:   0 | got_val:   0 | PASS
+# T=                  390 | rst_n = 1 | en = 1 | up_dn = 1 | count = 255
+# T:                  410 | expected_val: 255 | got_val: 255 | PASS
+# T=                  410 | rst_n = 1 | en = 1 | up_dn = 0 | count = 254
+# T:                  430 | expected_val: 254 | got_val: 254 | PASS
+# T=                  430 | rst_n = 1 | en = 1 | up_dn = 0 | count = 255
+# T:                  450 | expected_val: 255 | got_val: 255 | PASS
+# T=                  450 | rst_n = 1 | en = 1 | up_dn = 0 | count =   0
+# T:                  470 | expected_val:   0 | got_val:   0 | PASS
+# T=                  470 | rst_n = 1 | en = 1 | up_dn = 0 | count =   1
+# T:                  490 | expected_val:   1 | got_val:   1 | PASS
+# T=                  490 | rst_n = 1 | en = 0 | up_dn = 1 | count =   2
+# ** Note: $finish    : testbench.sv(16)
