@@ -1,0 +1,19 @@
+a:   9 | b:   5 | Prod:     x
+# MATCH exp=   45 act=    0 | FAIL
+a:   9 | b:   5 | Prod:     45
+# MATCH exp=   45 act=   45 | PASS
+# a:   9 | b:   4 | Prod:   36
+# MATCH exp=   36 act=   36 | PASS
+# a:   4 | b:   1 | Prod:    4
+# MATCH exp=    4 act=   4 | PASS
+# a:  10 | b:   3 | Prod:    30
+# MATCH exp=   30 act=   30 | PASS
+# a:   3 | b:   2 | Prod:     6
+# MATCH exp=    6 act=    6 | PASS
+# a:   7 | b:   2 | Prod:     14
+# MATCH exp=   14 act=   14 | PASS
+# a:   6 | b:  10 | Prod:     60
+# MATCH exp=   60 act=    60 | PASS
+# a:  10 | b:   8 | Prod:    80
+# a:  10 | b:   8 | Prod:    80
+# a:  10 | b:   8 | Prod:    80

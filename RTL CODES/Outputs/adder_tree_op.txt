@@ -1,0 +1,16 @@
+# a:   7 | b:   2 | Prod:     14
+# MATCH exp=    14 act=    14 | PASS
+# a:   1 | b:   7 | Prod:    7
+# MATCH exp=   7 act=   7 | PASS
+# a:   4 | b:   0 | Prod:    0
+# MATCH exp=   0 act=   0 | PASS
+# a:   1 | b:   2 | Prod:     2
+# MATCH exp=    2 act=    2 | PASS
+# a:   0 | b:   4 | Prod:     0
+# MATCH exp=    0 act=    0 | PASS
+# a:   3 | b:   4 | Prod:     12
+# MATCH exp=    12 act=    12 | PASS
+# a:   7 | b:   4 | Prod:     28
+# MATCH exp=    28 act=    28 | PASS
+# a:   5 | b:   0 | Prod:    28
+# MATCH exp=   0 act=  28  | FAIL
