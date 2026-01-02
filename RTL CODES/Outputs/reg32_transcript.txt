@@ -1,0 +1,8 @@
+# run -all
+# ** Error: Hold assertion failed at time 10
+#    Time: 10 ns Started: 10 ns  Scope: top_tb File: testbench.sv Line: 55
+# ** Error: Reset assertion failed at time 10
+#    Time: 10 ns Started: 10 ns  Scope: top_tb File: testbench.sv Line: 44
+# ** Error: Load assertion failed at time 30
+#    Time: 30 ns Started: 30 ns  Scope: top_tb File: testbench.sv Line: 50
+# ** Note: $finish    : testbench.sv(37)
